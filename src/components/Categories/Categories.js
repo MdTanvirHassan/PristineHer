@@ -1,5 +1,10 @@
 import React from 'react';
 import card from '../../img/seasonal.png';
+import card2 from '../../img/forhealth.png';
+import card3 from '../../img/fruits.png';
+import card4 from '../../img/meat.png';
+import card5 from '../../img/Dairy.png';
+import card6 from '../../img/snacks.png';
 import './Categories.css';
 
 
@@ -11,77 +16,75 @@ export default function Categories() {
             <div className="col-9 col-md-4 col-lg-9">
             <h5>Popular Categories</h5>
             </div>
-            <div className="col-3 col-md-8 col-lg-3">
-            <div className="accordion" id="accordionExample">
-                        <div className="accordion-item" width="20px">
-                        
-                            <h6 className="accordion-header" id="headingOne">
-                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            View All Categories 
-                            </button>
-                            </h6>
-                            </div>
-                        </div>
+            <div className="col-3 col-md-8 col-lg-3 d-flex justify-content-end ">
+               <a href='/' alt="" className='nav-link a'> <h6>View All Categories <i class="bi bi-play-fill"></i></h6></a>
             </div>
         
-            
+            <hr />
 
         </div>
-        <hr />
+        
         <div className="container">
-            <div className="row">
+            <div className="row ">
 
-                <div className="col-2">
-                    <div className="card bg">
+                <div className="col-2 ">
+                    <div className="card bg h ">
+                        <a href="/" alt="">
                         <img src={card} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
+                             <h6 className="card-title bg text-center">Seasonal</h6>
+                         </div></a>
+
+                    </div>
+                </div>
+
+                <div className="col-2 ">
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <a href="/" alt="">
+                        <img src={card2} className="card-img-top w-100 bg" alt="..."/>
+                        <div className="card-body ">
+                             <h6 className="card-title bg text-center">For Health</h6>
+                         </div></a>
                     </div>
                 </div>
 
                 <div className="col-2">
-                    <div className="card bg">
-                        <img src={card} className="card-img-top w-100 bg" alt="..."/>
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <a href="/" alt="">
+                        <img src={card3} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
+                             <h6 className="card-title bg text-center">Fruits</h6>
+                         </div></a>
                     </div>
                 </div>
 
                 <div className="col-2">
-                    <div className="card bg">
-                        <img src={card} className="card-img-top w-100 bg" alt="..."/>
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <a href="/" alt="">
+                        <img src={card4} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
+                             <h6 className="card-title bg text-center">Meat</h6>
+                         </div></a>
                     </div>
                 </div>
 
                 <div className="col-2">
-                    <div className="card bg">
-                        <img src={card} className="card-img-top w-100 bg" alt="..."/>
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                        <a href="/" alt="">
+                        <img src={card5} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
+                             <h6 className="card-title bg text-center">Dairy</h6>
+                         </div></a>
                     </div>
                 </div>
 
                 <div className="col-2">
-                    <div className="card bg">
-                        <img src={card} className="card-img-top w-100 bg" alt="..."/>
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                        <a href="/" alt="">
+                        <img src={card6} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
-                    </div>
-                </div>
-
-                <div className="col-2">
-                    <div className="card bg">
-                        <img src={card} className="card-img-top w-100 bg" alt="..."/>
-                        <div className="card-body ">
-                             <h6 className="card-title bg text-center">Title</h6>
-                         </div>
+                             <h6 className="card-title bg text-center">Tea Snacks</h6>
+                         </div></a>
                     </div>
                 </div>
 

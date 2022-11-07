@@ -1,0 +1,27 @@
+#footer{
+    color: white !important;
+    text-align: justify;
+}
+#footer:hover{
+    color: greenyellow !important;
+}
+.socialLink{
+    border: 1px solid #ffff;
+    padding: 15px;
+    margin: 2px;
+    margin-right: 20px;
+    color: #ffff;
+}
+.socialLink:hover{
+    color:greenyellow;
+    border: 1px solid greenyellow;
+}
+.text{
+    color: lightgray;
+}
+.text:hover{
+    color: greenyellow;
+}
+i{
+    width:150%;
+}

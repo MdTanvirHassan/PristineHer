@@ -2,7 +2,7 @@ nav>a {
    text-decoration: none;
 }
 #link-style{
-    border-right: .2px solid gray;
+   
     color: black !important;
 }
 .border{
@@ -10,9 +10,9 @@ nav>a {
 }
 
 #link-style:hover {
-    color: green!important;
+    color: forestgreen!important;
     transition: all .3s linear;
-    font-weight: bold;
+    
 }
 .src{
     width: 200px;
@@ -22,5 +22,5 @@ i{
     width: 30px;
 }
 .nav3{
-    background-color: #28b100
+    background-color: forestgreen;
 }

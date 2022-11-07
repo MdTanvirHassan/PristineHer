@@ -1,0 +1,11 @@
+#text-justify{
+    text-align: justify;
+}
+.view{
+    color:black;
+    text-decoration: none;
+    
+}
+.view:hover{
+    color:forestgreen;
+}

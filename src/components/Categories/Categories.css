@@ -4,3 +4,20 @@ h5{
 .bg{
     background-color:aliceblue;
 }
+.h:hover{
+    border: 1px solid green;
+    transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) .5s ease-in-out;
+
+}
+.h>img:hover{
+    transform: scale(1.01);
+    
+}
+.h>a,.h>h6{
+    text-decoration: none;
+    color: black;
+}
+
+.a:hover{
+    color: forestgreen!important;
+}
