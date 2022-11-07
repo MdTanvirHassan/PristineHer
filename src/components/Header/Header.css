@@ -1,0 +1,26 @@
+nav>a {
+   text-decoration: none;
+}
+#link-style{
+    border-right: .2px solid gray;
+    color: black !important;
+}
+.border{
+    border: .2px solid lightgray!important;
+}
+
+#link-style:hover {
+    color: green!important;
+    transition: all .3s linear;
+    font-weight: bold;
+}
+.src{
+    width: 200px;
+}
+i{
+    height: 20px;
+    width: 30px;
+}
+.nav3{
+    background-color: #28b100
+}
