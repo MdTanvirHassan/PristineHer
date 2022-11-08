@@ -50,7 +50,7 @@ export default function Carousel() {
                 </a>
                 <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-cup-fill me-3"></i>
                 <small>Tea Snacks</small> </a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-columns-gap me-3"></i>
+                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-columns-gap-fill me-3"></i>
                 <small>Meats</small></a>
                 <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-flower2 me-3"></i>
                 <small>Fruits</small></a>
