@@ -1,11 +1,9 @@
-#li{
-    border: .1px solid lightgray;
-}
+
 #li:hover{
  color: goldenrod!important;
  background-color: lavenderblush;
  border-left: 2px solid goldenrod;
- border-bottom: 1px solid gray;
+ 
 }
 .a{
     color: black;

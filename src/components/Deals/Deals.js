@@ -14,7 +14,7 @@ export default function Deals() {
                 <h5>Today Deals</h5>
             </div>
             <div className="col-3 col-md-8 col-lg-3 d-flex justify-content-end ">
-               <a href='/' alt="" className='nav-link a'> <h6>More Products <i class="bi bi-play-fill"></i></h6></a>
+               <a href='/' alt="" className='nav-link a'> <h6>More Products <i className="bi bi-play-fill"></i></h6></a>
             </div>
             <hr />
          </div>
@@ -25,67 +25,67 @@ export default function Deals() {
         <div className='container'>
             <div className='row mb-2'>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded" >
-                        <img src={img} class="card-img-top " alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳26.99</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded" >
+                        <img src={img} className="card-img-top " alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳26.99</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
-                        <img src={img4} class="card-img-top" alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳67.99</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded">
+                        <img src={img4} className="card-img-top" alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳67.99</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
-                        <img src={img3} class="card-img-top" alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳42.00</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded">
+                        <img src={img3} className="card-img-top" alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳42.00</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
-                        <img src={img} class="card-img-top" alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳26.99</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded">
+                        <img src={img} className="card-img-top" alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳26.99</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
-                        <img src={img2} class="card-img-top" alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳26.99</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded">
+                        <img src={img2} className="card-img-top" alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳26.99</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
-                        <img src={img} class="card-img-top" alt="..."/>
-                        <div class="card-body text-center">
-                            <h6 class="card-title">৳26.99</h6>
-                            <p class="card-text">Product Name</p>
+                <div className="col-lg-2 col-md-4 col-sm-12">
+                    <div className="card h-100 shadow p-3 mb-5 bg-body rounded">
+                        <img src={img} className="card-img-top" alt="..."/>
+                        <div className="card-body text-center">
+                            <h6 className="card-title">৳26.99</h6>
+                            <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
                         </div>
                     </div>

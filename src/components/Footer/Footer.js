@@ -4,11 +4,11 @@ import './Footer.css';
 
 export default function Footer() {
     const footer={
-        color:"#fff",
+        color:"black",
         textAlign:"justify",
     }
   return (
-    <div className='bg-success' style={footer}>
+    <div className='bg-warning' style={footer}>
         <div className="container ">
             <footer className="py-5">
                 <div className="px-2"><img src={logo} alt='..' width="100px"></img></div><hr />
@@ -48,7 +48,7 @@ export default function Footer() {
                 <div className="col-4 col-md-5 offset-md-1 mb-3">
                    
                     <h5>About</h5>
-                    <p className='text'><b>Pristine Herbal </b>being the trusted online shop in over the world aims to provide a trouble-free shopping experience for the people of the world but is also providing ample opportunity for international online shopping from Pristine Herbal. This shop being the trusted online shop in over the world aims to provide a trouble-free shopping experience for the people of the world but is also providing ample opportunity for international online shopping from </p>
+                    {/* <p className='text'><b>Pristine Herbal </b>being the trusted online shop in over the world aims to provide a trouble-free shopping experience for the people of the world but is also providing ample opportunity for international online shopping from Pristine Herbal. This shop being the trusted online shop in over the world aims to provide a trouble-free shopping experience for the people of the world but is also providing ample opportunity for international online shopping from </p> */}
                     <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                         <ul className='nav'>
                             <li className='nav-item'><a className='nav-link socialLink' href='/' alt='...'><i className="bi bi-facebook"></i></a></li>

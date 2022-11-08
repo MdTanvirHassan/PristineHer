@@ -8,17 +8,17 @@ export default function Carousel() {
     <div>
 
          {/* --------------------------------nab3------------------- */}
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-success " aria-label="Eighth navbar example">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-warning text=dark " aria-label="Eighth navbar example">
     <div className="container ">
       <a className="navbar-brand hb" href="/">  </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarsExample07">
+      <div className="collapse navbar-collapse text-dark " id="navbarsExample07">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item px-3 me-5">
-            <a className="navbar-brand ms-8 hb" aria-current="page" href="/"><i class="bi bi-card-list"></i>  All Categories </a>
+            <a className="navbar-brand ms-8 hb" aria-current="page" href="/"><i className="bi bi-card-list"></i>  All Categories </a>
           </li>
           <li className="nav-item">
             <a className="navbar-brand ps-5 ms-5 hb" aria-current="page" href="/">Home</a>
@@ -35,76 +35,42 @@ export default function Carousel() {
           
          
         </ul>
-        <a className="nav-link bg-success hb" href="http:/" style={{color:'white'}}><i class="bi bi-tags"></i> Daily Deals</a>
+        <a className="nav-link text-success hb" href="http:/" style={{color:'white'}}><i className="bi bi-tags"></i> Daily Deals</a>
       </div>
     </div>
   </nav>
 
     <div className="container ">
         <div className="row  ">
-          <div className="col-10 col-sm-8 col-lg-4">
-            <ul className="nav nav-pills flex-column mb-auto">
-                <li className="nav-item " id='li'>
-                    <a href="/" className="nav-link link-dark" aria-current="page">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/home"/></svg>
-                    All Offers
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/speedometer2"/></svg>
-                    Tea Snacks
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/table"/></svg>
-                    Dairy
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/grid"/></svg>
-                    Meats
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/people-circle"/></svg>
-                    Fruits
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/people-circle"/></svg>
-                    For Health
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <svg className="bi pe-none me-2" width="16" height="16"><use href="/people-circle"/></svg>
-                    Seasonal
-                    </a>
-                </li>
-                <li id='li'>
-                    <a href="/" className="nav-link link-dark">
-                    <div className="accordion" id="accordionExample">
-                        <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingOne">
-                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            View All Categories 
-                            </button>
-                            </h2></div></div>
-                   
-                    </a>
-                </li>
-            </ul>
+          <div className="col-lg-3 col-sm-12 col-mb-6 mt-3 ">
+
+           <div className="list-group shadow p-0 mb-2 bg-body rounded " >
+                <a href='/' className="list-group-item list-group-item-action  "id='li' aria-current="true">
+                <i className="bi bi-columns-gap me-3"></i><small>All Offers</small>
+                </a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-cup-fill me-3"></i>
+                <small>Tea Snacks</small> </a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-columns-gap me-3"></i>
+                <small>Meats</small></a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-flower2 me-3"></i>
+                <small>Fruits</small></a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'> <i className="bi bi-lungs-fill me-3"></i>
+                <small>For Health</small></a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'> <i className="bi bi-command me-3"></i>
+                <small> Dairy</small></a>
+                <a href='/' className="list-group-item list-group-item-action"id='li'> <i class="bi bi-bag-plus-fill me-3"></i>
+                <small>Seasonal</small> </a>
+                <a href='/' className="list-group-item list-group-item-action text-warning"id='li'> <i className="bi bi-qr-code me-3"></i>
+                <small>View All Categories <i class="bi bi-play-fill"></i></small> </a>
+             </div>
+
+
         </div>
 
 {/* ---------------------------------------carousel-------------------------------- */}
-        <div className="col-lg-8 my-2">
+        <div className="col-lg-9 col-sm-12 col-mb-6 my-3">
           
-        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" className="carousel carousel-dark slide shadow p-0 mb-2 bg-body rounded" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -114,22 +80,22 @@ export default function Carousel() {
     <div className="carousel-item active" data-bs-interval="10000">
       <img src={img} className="d-block w-100 " alt="carouselImageSample"/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5></h5>
+        <p></p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
       <img src={image} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5></h5>
+        <p></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={img} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5></h5>
+        <p></p>
       </div>
     </div>
   </div>

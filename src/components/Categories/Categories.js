@@ -27,8 +27,8 @@ export default function Categories() {
         <div className="container">
             <div className="row ">
 
-                <div className="col-2 ">
-                    <div className="card bg h ">
+                <div className="col-lg-2 col-md-4 col-sm-12 ">
+                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                         <a href="/" alt="">
                         <img src={card} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -38,7 +38,7 @@ export default function Categories() {
                     </div>
                 </div>
 
-                <div className="col-2 ">
+                <div className="col-lg-2 col-md-4 col-sm-12 ">
                     <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                     <a href="/" alt="">
                         <img src={card2} className="card-img-top w-100 bg" alt="..."/>
@@ -48,7 +48,7 @@ export default function Categories() {
                     </div>
                 </div>
 
-                <div className="col-2">
+                <div className="col-lg-2 col-md-4 col-sm-12">
                     <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                     <a href="/" alt="">
                         <img src={card3} className="card-img-top w-100 bg" alt="..."/>
@@ -58,7 +58,7 @@ export default function Categories() {
                     </div>
                 </div>
 
-                <div className="col-2">
+                <div className="col-lg-2 col-md-4 col-sm-12">
                     <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                     <a href="/" alt="">
                         <img src={card4} className="card-img-top w-100 bg" alt="..."/>
@@ -68,7 +68,7 @@ export default function Categories() {
                     </div>
                 </div>
 
-                <div className="col-2">
+                <div className="col-lg-2 col-md-4 col-sm-12">
                     <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                         <a href="/" alt="">
                         <img src={card5} className="card-img-top w-100 bg" alt="..."/>
@@ -78,7 +78,7 @@ export default function Categories() {
                     </div>
                 </div>
 
-                <div className="col-2">
+                <div className="col-lg-2 col-md-4 col-sm-12">
                     <div className="card bg h shadow p-3 mb-5 bg-body rounded">
                         <a href="/" alt="">
                         <img src={card6} className="card-img-top w-100 bg" alt="..."/>

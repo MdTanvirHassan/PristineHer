@@ -3,10 +3,10 @@ nav>a {
 }
 #link-style{
    
-    color: black !important;
+    color: #ffff !important;
 }
 .border{
-    border: .2px solid lightgray!important;
+    border: .1px solid lightgray!important;
 }
 
 #link-style:hover {

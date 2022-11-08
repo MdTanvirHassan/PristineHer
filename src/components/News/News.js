@@ -25,7 +25,7 @@ export default function News() {
         <div className="container">
 
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
                             <img src={img} alt="..." srcset="" />
 
@@ -41,7 +41,7 @@ export default function News() {
                         </div>                       
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
                             <img src={img2} alt="..." srcset="" />
 
@@ -57,7 +57,7 @@ export default function News() {
                         </div>                       
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
                             <img src={img3} alt="..." srcset="" />
 
@@ -73,7 +73,7 @@ export default function News() {
                         </div>                       
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
                             <img src={img4} alt="..." srcset="" />
 

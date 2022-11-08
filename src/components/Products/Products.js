@@ -25,7 +25,7 @@ export default function Products() {
         <div className='container'>
             <div className='row mb-2'>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img} class="card-img-top " alt="..."/>
                         <div class="card-body text-center">
@@ -36,7 +36,7 @@ export default function Products() {
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img4} class="card-img-top" alt="..."/>
                         <div class="card-body text-center">
@@ -47,7 +47,7 @@ export default function Products() {
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img3} class="card-img-top" alt="..."/>
                         <div class="card-body text-center">
@@ -58,7 +58,7 @@ export default function Products() {
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img} class="card-img-top" alt="..."/>
                         <div class="card-body text-center">
@@ -69,7 +69,7 @@ export default function Products() {
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img2} class="card-img-top" alt="..."/>
                         <div class="card-body text-center">
@@ -80,7 +80,7 @@ export default function Products() {
                     </div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                         <img src={img} class="card-img-top" alt="..."/>
                         <div class="card-body text-center">
