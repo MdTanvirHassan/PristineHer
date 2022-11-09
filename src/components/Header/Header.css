@@ -1,16 +1,13 @@
 nav>a {
    text-decoration: none;
 }
-#link-style{
-   
-    color: #ffff !important;
-}
+
 .border{
     border: .1px solid lightgray!important;
 }
 
 #link-style:hover {
-    color: forestgreen!important;
+    color: orange!important;
     transition: all .3s linear;
     
 }

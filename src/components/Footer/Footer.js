@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer(props) {
     
   return (
-    <div className={`bg-${props.mode==='dark'?'secondary':'warning'} `}>
+    <div className={`bg-${props.mode==='dark'?'secondary':'success'} `}>
         <div className="container ">
             <footer className="py-5">
                 <div className="px-2"><img src={logo} alt='..' width="100px"></img></div><hr />

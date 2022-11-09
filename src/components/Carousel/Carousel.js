@@ -8,7 +8,7 @@ export default function Carousel() {
     <div>
 
          {/* --------------------------------nab3------------------- */}
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-warning text=dark " aria-label="Eighth navbar example">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-success text=dark " aria-label="Eighth navbar example">
     <div className="container ">
       <a className="navbar-brand hb" href="/">  </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ export default function Carousel() {
             <a className="navbar-brand ms-8 hb" aria-current="page" href="/"><i className="bi bi-card-list"></i>  All Categories </a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand ps-5 ms-5 hb" aria-current="page" href="/">Home</a>
+            <a className="navbar-brand ps- ms-4 hb" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
             <a className="navbar-brand hb" aria-current="page" href="/">Blogs</a>
@@ -35,7 +35,7 @@ export default function Carousel() {
           
          
         </ul>
-        <a className="nav-link text-success hb" href="http:/" style={{color:'white'}}><i className="bi bi-tags"></i> Daily Deals</a>
+        <a className="nav-link text-warning hb" href="http:/" style={{color:'white'}}><i className="bi bi-tags"></i> Daily Deals</a>
       </div>
     </div>
   </nav>

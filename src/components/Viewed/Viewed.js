@@ -16,7 +16,7 @@ export default function Viewed(props) {
          </div>
         </div>
 
-
+        <div className={`full-container text-${props.mode==='dark'?'warning':'dark'} bg-${props.mode==='dark'?'secondary':'body'} `}>
 
         <div className="container py-5">
             <div className="row">
@@ -41,7 +41,7 @@ export default function Viewed(props) {
 
             </div>
 
-            <div className={`context text-justify text-${props.mode==='dark'?'dark':'warning'}`}>
+            <div className={`context text-justify }`}>
                 <p id='text-justify'>Online Shopping BD has never been easier. pristineherbbd.com is the best online shopping store in Bangladesh that features 10+ million products at affordable prices. As Bangladesh's online shopping landscape is expanding every year, online shopping in Dhaka, Chittagong, Khulna, Sylhet, and other big cities is also gaining momentum. Pristine Herbal is among the best websites for online shopping in Bangladesh that promises fast, reliable, and convenient delivery of products to your doorstep. Pristine Herbal being the trusted online shop in Bangladesh aims to provide a trouble-free shopping experience for the people of Bangladesh but is also providing ample opportunity for international online shopping from Bangladesh. Pristine Herbal aims to make online shopping accessible to all parts of the country.</p> <br />
 
                 <p>Everyone is encouraged to shop with confidence at pristineherbbd.com as our strict buyer’s protection policies ensure no risks while shopping online. </p><br />
@@ -49,7 +49,7 @@ export default function Viewed(props) {
                 <p>Among tons of online stores in Bangladesh, Pristine Herbal aims to strictly adhere to international quality standards ensuring trust and reliability in customer service and originality in product delivery. Realizing the surge in e-commerce</p>
             </div><hr />
 
-            <div className={`container text-${props.mode==='dark'?'dark':'warning'}`}>
+            <div className={`container text-${props.mode==='dark'?'warning':'dark'}`}>
                 <div className="row">
                     <div className={`col-4 text-${props.mode==='dark'?'dark':'warning'}`}>
                     <a href="/" className="view" alt='...'> <h6 className="view">Tea Snacks</h6></a>
@@ -72,7 +72,7 @@ export default function Viewed(props) {
     
         </div>
 
-
+        </div>
 
 
     </div>
