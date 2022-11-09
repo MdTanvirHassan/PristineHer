@@ -70,7 +70,7 @@ export default function Carousel() {
 {/* ---------------------------------------carousel-------------------------------- */}
         <div className="col-lg-9 col-sm-12 col-mb-6 my-3">
           
-        <div id="carouselExampleDark" className="carousel carousel-dark slide shadow p-0 mb-2 bg-body rounded" data-bs-ride="carousel">
+        <div id="carouselExampleDark" className="carousel carousel-light slide shadow p-0 mb-2 bg-body rounded" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>

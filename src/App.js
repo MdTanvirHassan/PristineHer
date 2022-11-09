@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css';
 import Carousel from './components/Carousel/Carousel';
 import Categories from './components/Categories/Categories';
@@ -10,9 +10,21 @@ import Products from './components/Products/Products';
 import Viewed from './components/Viewed/Viewed';
 
 function App() {
+  const[mode,setMode]= useState('light');
+  const toggleMode =()=>{
+    if(mode==='dark'){
+      setMode('light');
+      document.body.style.backgroundColor='#ffff';
+    }
+    else{
+      setMode('dark');
+      document.body.style.backgroundColor='#041628';
+
+    }
+  }
   return (
     <div className="App">
-        <Header></Header>
+        <Header mode={mode} toggleMode={toggleMode}></Header>
         <Carousel></Carousel>
         <Categories></Categories>
         <Deals></Deals>

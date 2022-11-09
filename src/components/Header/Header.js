@@ -2,12 +2,12 @@ import React from 'react'
 import logo from '../../img/logo.png';
 import './Header.css';
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div>
         {/* --------------------------------nav1---------------------------- */}
         <div className="row">
-        <header className='header bg-success border col-lg-12 col-mb-12 col-sm-12'>
+        <header className='header navbar-expand-lg bg-success border col-lg-12 col-mb-12 col-sm-12'>
         <div className="nav-scroller  shadow-sm d-flex justify-content-end bg-dark">
             <nav className="nav bg-dark " aria-label="Secondary navigation d-flex justify-content-end" id='link-style'>
                 <a className="nav-link  " id='link-style' aria-current="page" href="/"><b><i className="bi bi-phone text-success"></i> Call: 01776979756</b></a>
@@ -15,8 +15,16 @@ export default function Header() {
                 Track Order 
                 <span className="badge text-bg-danger rounded-pill align-text-bottom"> 7</span>
                 </a>
+                <a className="nav-link  " href="/" id='link-style'><b className="text-warning"><i className="bi bi-cart"></i> </b> Cart
+                <span className="badge text-bg-danger rounded-pill align-text-bottom"> 7</span>
+                </a>
+                
                 <a className="nav-link " href="/" id='link-style'><i className="bi bi-book text-warning"></i> Compare</a>
                 <a className="nav-link dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false" href="/" id='link-style'><i className="bi bi-bookmark text-warning"></i> Blogs</a> 
+                <div className={`nav-item nav-link form-check  form-switch text-${props.mode==='dark'?'light':'gray'}`}>
+                            <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+                            <label className="form-check-label " htmlFor="flexSwitchCheckDefault"><i class={` w-10 bi bi-moon${props.mode==='dark'?'':'-fill'}`}></i></label>
+                        </div>
             </nav>
         </div>
         </header>
@@ -24,7 +32,7 @@ export default function Header() {
 
 {/* --------Nav-2-------- */}
 
-<nav className="pt-2 bg-body border-bottom  col-lg-12 col-mb-12 col-sm-12">
+<nav className={`pt-2 navbar-expand-lg bg-${props.mode==='dark'?'secondary':'body'} border-bottom  col-lg-12 col-mb-12 col-sm-12`}>
     <div className="container d-flex mb- ">
      
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
@@ -43,8 +51,8 @@ export default function Header() {
             <li className="nav-item"><a href="/" className="nav-link link-dark px-2"><i className="bi bi-heart"></i></a></li>
             <li className="nav-item"><a href="/" className="nav-link link-dark px-2"><i className="bi bi-bag"></i></a></li>
                  <li className="nav-item"><a href="/" className="nav-link link-dark px-2"><i className="bi bi-person"></i></a></li>
-                <li className="nav-item" id='link-style'><a href="/" className="nav-link link-dark px-2">Login</a></li>
-                <li className="nav-item" id='link-style'><a href="/" className="nav-link link-dark px-2">Register</a></li>
+                <li className="nav-item d-flex flex-wrap" id='link-style'><a href="/" className="nav-link link-dark px-2">Login</a></li>
+                <li className="nav-item d-flex flex-wrap" id='link-style'><a href="/" className="nav-link link-dark px-2">Register</a></li>
             </ul>
        </div>
       
