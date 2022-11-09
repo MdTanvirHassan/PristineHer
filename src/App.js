@@ -25,13 +25,13 @@ function App() {
   return (
     <div className="App">
         <Header mode={mode} toggleMode={toggleMode}></Header>
-        <Carousel></Carousel>
-        <Categories></Categories>
-        <Deals></Deals>
-        <Products></Products>
-        <News></News>
-        <Viewed></Viewed>
-        <Footer></Footer>
+        <Carousel mode={mode}></Carousel>
+        <Categories mode={mode}></Categories>
+        <Deals mode={mode}></Deals>
+        <Products mode={mode}></Products>
+        <News mode={mode}></News>
+        <Viewed mode={mode}></Viewed>
+        <Footer mode={mode}></Footer>
         
     </div>
   );

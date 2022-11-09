@@ -2,13 +2,10 @@ import React from 'react'
 import logo from '../../img/logo.png';
 import './Footer.css';
 
-export default function Footer() {
-    const footer={
-        color:"black",
-        textAlign:"justify",
-    }
+export default function Footer(props) {
+    
   return (
-    <div className='bg-warning' style={footer}>
+    <div className={`bg-${props.mode==='dark'?'secondary':'warning'} `}>
         <div className="container ">
             <footer className="py-5">
                 <div className="px-2"><img src={logo} alt='..' width="100px"></img></div><hr />

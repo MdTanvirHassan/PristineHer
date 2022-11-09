@@ -32,7 +32,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳26.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳67.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳42.00</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳26.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳26.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Products(props) {
                             <h6 className="card-title">৳26.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <a className="btn btn-warning" href="/" role="button"><small>Add to Cart</small></a>
+                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
                         </div>
                     </div>
                 </div>

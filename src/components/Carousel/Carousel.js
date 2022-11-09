@@ -50,7 +50,7 @@ export default function Carousel() {
                 </a>
                 <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-cup-fill me-3"></i>
                 <small>Tea Snacks</small> </a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-columns-gap-fill me-3"></i>
+                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-bag-fill me-3"></i>
                 <small>Meats</small></a>
                 <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-flower2 me-3"></i>
                 <small>Fruits</small></a>
@@ -80,22 +80,19 @@ export default function Carousel() {
     <div className="carousel-item active" data-bs-interval="10000">
       <img src={img} className="d-block w-100 " alt="carouselImageSample"/>
       <div className="carousel-caption d-none d-md-block">
-        <h5></h5>
-        <p></p>
+        
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
       <img src={image} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5></h5>
-        <p></p>
+        
       </div>
     </div>
     <div className="carousel-item">
       <img src={img} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5></h5>
-        <p></p>
+        
       </div>
     </div>
   </div>
