@@ -3,7 +3,7 @@ import './Carousel.css';
 import img from '../../img/cr.png';
 import image from '../../img/cr2.png';
 
-export default function Carousel() {
+export default function Carousel(props) {
   return (
     <div>
 
@@ -21,16 +21,16 @@ export default function Carousel() {
             <a className="navbar-brand ms-8 hb" aria-current="page" href="/"><i className="bi bi-card-list"></i>  All Categories </a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand ps- ms-4 hb" aria-current="page" href="/">Home</a>
+            <a className="navbar-brand ps- ms-4 me-5 hb" aria-current="page" href="/"><small>Home</small></a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand hb" aria-current="page" href="/">Blogs</a>
+            <a className="navbar-brand me-5 hb" aria-current="page" href="/"><small>Blogs</small></a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand hb" href="/">About Us</a>
+            <a className="navbar-brand me-5 hb" href="/"><small>About </small></a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand hb" aria-current="page" href="/">Contract US</a>
+            <a className="navbar-brand me-5 hb" aria-current="page" href="/"><small>Contract</small></a>
           </li>
           
          
@@ -42,25 +42,25 @@ export default function Carousel() {
 
     <div className="container ">
         <div className="row  ">
-          <div className="col-lg-3 col-sm-12 col-mb-6 mt-3 ">
+          <div className="col-lg-3 col-sm-12 col-mb-6 mt-3">
 
-           <div className="list-group shadow p-0 mb-2 bg-body rounded " >
-                <a href='/' className="list-group-item list-group-item-action  "id='li' aria-current="true">
+           <div className={`list-group shadow p-0 mb-2 bg-${props.mode==='dark'?'dark':'body'} rounded `} >
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li' aria-current="true">
                 <i className="bi bi-columns-gap me-3"></i><small>All Offers</small>
                 </a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-cup-fill me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'><i className="bi bi-cup-fill me-3"></i>
                 <small>Tea Snacks</small> </a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-bag-fill me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'><i className="bi bi-bag-fill me-3"></i>
                 <small>Meats</small></a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'><i className="bi bi-flower2 me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'><i className="bi bi-flower2 me-3"></i>
                 <small>Fruits</small></a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'> <i className="bi bi-lungs-fill me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'> <i className="bi bi-lungs-fill me-3"></i>
                 <small>For Health</small></a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'> <i className="bi bi-command me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'> <i className="bi bi-command me-3"></i>
                 <small> Dairy</small></a>
-                <a href='/' className="list-group-item list-group-item-action"id='li'> <i class="bi bi-bag-plus-fill me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'white':'body'}  `} id='li'> <i class="bi bi-bag-plus-fill me-3"></i>
                 <small>Seasonal</small> </a>
-                <a href='/' className="list-group-item list-group-item-action text-warning"id='li'> <i className="bi bi-qr-code me-3"></i>
+                <a href='/' className={`list-group-item list-group-item-action bg-${props.mode==='dark'?'secondary':'body'} text-${props.mode==='dark'?'warning':'warning'} `} id='li'> <i className="bi bi-qr-code me-3"></i>
                 <small>View All Categories <i class="bi bi-play-fill"></i></small> </a>
              </div>
 
@@ -68,7 +68,7 @@ export default function Carousel() {
         </div>
 
 {/* ---------------------------------------carousel-------------------------------- */}
-        <div className="col-lg-9 col-sm-12 col-mb-6 my-3">
+        <div className="col-lg-9 col-sm-12 col-mb-6 my-3 ">
           
         <div id="carouselExampleDark" className="carousel carousel-light slide shadow p-0 mb-2 bg-body rounded" data-bs-ride="carousel">
   <div className="carousel-indicators">

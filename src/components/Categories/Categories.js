@@ -8,16 +8,16 @@ import card6 from '../../img/snacks.png';
 import './Categories.css';
 
 
-export default function Categories() {
+export default function Categories(props) {
    
   return (
     <div className='container my-5'>
-        <div className="categories row">
+        <div className={`categories row text-${props.mode==='dark'?'warning':'dark'}`}>
             <div className="col-9 col-md-4 col-lg-9">
             <h5>Popular Categories</h5>
             </div>
-            <div className="col-3 col-md-8 col-lg-3 d-flex justify-content-end ">
-               <a href='/' alt="" className='nav-link a'> <h6>View All Categories <i class="bi bi-play-fill"></i></h6></a>
+            <div className={`col-3 col-md-8 col-lg-3 d-flex justify-content-end text-${props.mode==='dark'?'warning':'dark'}`}>
+               <a href='/' alt="" className={`nav-link a text-${props.mode==='dark'?'warning':'dark'}`}> <h6>View All Categories <i class="bi bi-play-fill"></i></h6></a>
             </div>
         
             <hr />
@@ -28,7 +28,7 @@ export default function Categories() {
             <div className="row ">
 
                 <div className="col-lg-2 col-md-4 col-sm-12 ">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                         <a href="/" alt="">
                         <img src={card} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -39,7 +39,7 @@ export default function Categories() {
                 </div>
 
                 <div className="col-lg-2 col-md-4 col-sm-12 ">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                     <a href="/" alt="">
                         <img src={card2} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -49,7 +49,7 @@ export default function Categories() {
                 </div>
 
                 <div className="col-lg-2 col-md-4 col-sm-12">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                     <a href="/" alt="">
                         <img src={card3} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -59,7 +59,7 @@ export default function Categories() {
                 </div>
 
                 <div className="col-lg-2 col-md-4 col-sm-12">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                     <a href="/" alt="">
                         <img src={card4} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -69,7 +69,7 @@ export default function Categories() {
                 </div>
 
                 <div className="col-lg-2 col-md-4 col-sm-12">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                         <a href="/" alt="">
                         <img src={card5} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">
@@ -79,7 +79,7 @@ export default function Categories() {
                 </div>
 
                 <div className="col-lg-2 col-md-4 col-sm-12">
-                    <div className="card bg h shadow p-3 mb-5 bg-body rounded">
+                    <div className={`card bg h shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded`}>
                         <a href="/" alt="">
                         <img src={card6} className="card-img-top w-100 bg" alt="..."/>
                         <div className="card-body ">

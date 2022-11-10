@@ -15,6 +15,8 @@
 .socialLink:hover{
     color:greenyellow;
     border: 1px solid greenyellow;
+    background-color: #ffff;
+    opacity: 1;
 }
 .text{
     color: lightgray;

@@ -57,7 +57,7 @@ export default function Footer(props) {
                             <li className='nav-item'><a className='nav-link socialLink' href='/' alt='...'><i className="bi bi-envelope"></i></a></li>
                         </ul>
                         <ul className='nav'>
-                            <li className='nav-item'><a className='nav-link socialLink' href='/' alt='...'><i className="bi bi-youtube"></i></a></li>
+                            <li className='nav-item'><a className='nav-link socialLink' href='/' alt='...'><i className="bi bi-linkedin"></i></a></li>
                         </ul>
                         <ul className='nav'>
                             <li className='nav-item'><a className='nav-link socialLink' href='/' alt='...'><i className="bi bi-youtube"></i></a></li>
@@ -107,7 +107,7 @@ export default function Footer(props) {
                 <ul className="list-unstyled d-flex">
                     <li className="ms-3"><a className="link-dark" href="/"  id='footer'><i className="bi bi-facebook"></i></a></li>
                     <li className="ms-3"><a className="link-dark" href="/"  id='footer'><i className="bi bi-twitter"></i></a></li>
-                    <li className="ms-3"><a className="link-dark" href="/"  id='footer'><i className="bi bi-instagram"></i></a></li>
+                    <li className="ms-3"><a className="link-dark" href="/"  id='footer'><i className="bi bi-linkedin"></i></a></li>
                 </ul>
                 </div>
             </footer>

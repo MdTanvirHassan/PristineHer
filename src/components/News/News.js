@@ -5,16 +5,16 @@ import img3 from '../../img/n3.png';
 import img4 from '../../img/n4.png';
 import './News.css';
 
-export default function News() {
+export default function News(props) {
   return (
     <div>
         <div className='container mt-5'>
-         <div className="categories row">
-            <div className="col-9 col-md-4 col-lg-9">
+         <div className={`categories row text-${props.mode==='dark'?'warning':'dark'}`}>
+            <div className={`col-9 col-md-4 col-lg-9  text-${props.mode==='dark'?'warning':'dark'}`}>
                 <h5>Latest News</h5>
             </div>
             <div className="col-3 col-md-8 col-lg-3 d-flex justify-content-end ">
-               <a href='/' alt="" className='nav-link a'> <h6>More <i className="bi bi-play-fill"></i></h6></a>
+               <a href='/' alt="" className={`nav-link a text-${props.mode==='dark'?'warning':'dark'}`}> <h6>More <i className="bi bi-play-fill"></i></h6></a>
             </div>
             <hr />
          </div>
@@ -26,7 +26,7 @@ export default function News() {
 
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
+                        <div className={`card shadow-sm shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded text-${props.mode==='dark'?'white':'dark'}`}>
                             <img src={img} alt="..." srcset="" />
 
                             <div className="card-body">
@@ -42,7 +42,7 @@ export default function News() {
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
+                        <div className={`card shadow-sm shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded text-${props.mode==='dark'?'white':'dark'}`}>
                             <img src={img2} alt="..." srcset="" />
 
                             <div className="card-body">
@@ -58,7 +58,7 @@ export default function News() {
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
+                        <div className={`card shadow-sm shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded text-${props.mode==='dark'?'white':'dark'}`}>
                             <img src={img3} alt="..." srcset="" />
 
                             <div className="card-body">
@@ -74,7 +74,7 @@ export default function News() {
                     </div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div className="card shadow-sm shadow p-3 mb-5 bg-body rounded">
+                        <div className={`card shadow-sm shadow p-3 mb-5 bg-${props.mode==='dark'?'secondary':'body'} rounded text-${props.mode==='dark'?'white':'dark'}`}>
                             <img src={img4} alt="..." srcset="" />
 
                             <div className="card-body">
