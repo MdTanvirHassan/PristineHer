@@ -32,7 +32,8 @@ export default function Deals(props) {
                             <h6 className={`card-title text-${props.mode==='dark'?'white':'dark'}`}>৳26.99</h6>
                             <p className="card-text">Product Name</p>
                             <p className='rate'>★★★★★</p>
-                            <button className="btn btn-warning" href="/"><small>Add to Cart</small></button>
+                            <button className="btn btn-warning" href="/" ><small>Add to Cart</small>
+                            </button>
                         </div>
                     </div>
                 </div>
